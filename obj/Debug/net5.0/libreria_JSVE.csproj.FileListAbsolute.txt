@@ -1,0 +1,7 @@
+C:\Users\cd11\Desktop\CodesJose\libreria_JSVE\obj\Debug\net5.0\libreria_JSVE.csproj.AssemblyReference.cache
+C:\Users\cd11\Desktop\CodesJose\libreria_JSVE\obj\Debug\net5.0\libreria_JSVE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cd11\Desktop\CodesJose\libreria_JSVE\obj\Debug\net5.0\libreria_JSVE.AssemblyInfoInputs.cache
+C:\Users\cd11\Desktop\CodesJose\libreria_JSVE\obj\Debug\net5.0\libreria_JSVE.AssemblyInfo.cs
+C:\Users\cd11\Desktop\CodesJose\libreria_JSVE\obj\Debug\net5.0\libreria_JSVE.csproj.CoreCompileInputs.cache
+C:\Users\cd11\Desktop\CodesJose\libreria_JSVE\obj\Debug\net5.0\libreria_JSVE.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cd11\Desktop\CodesJose\libreria_JSVE\obj\Debug\net5.0\libreria_JSVE.MvcApplicationPartsAssemblyInfo.cache
