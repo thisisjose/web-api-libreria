@@ -1,4 +1,5 @@
-using libreria_JSVE.Controllers.Data;
+using libreria_JSVE.Data;
+using libreria_JSVE.Data.Models.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -16,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace libreria_JSVE
 {
-    
+
     public class Startup
     {
         public string ConnectionString { get; set; }
@@ -35,6 +36,10 @@ namespace libreria_JSVE
             services.AddControllers();
             //configurar DBcontext con sql
             services.AddDbContext<AppDebContext>(options => options.UseSqlServer(ConnectionString));
+
+            //Configurar el servicio para que se pueda ser usado
+            services.AddTransient<BooksService>();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "libreria_JSVE", Version = "v1" });
@@ -61,6 +66,7 @@ namespace libreria_JSVE
             {
                 endpoints.MapControllers();
             });
+            AppDbInitializer.Seed(app);
         }
     }
 }

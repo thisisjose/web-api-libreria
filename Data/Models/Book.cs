@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace libreria_JSVE.Controllers.Data.Models
+namespace libreria_JSVE.Data.Models
 {
     public class Book
     {
@@ -15,5 +15,11 @@ namespace libreria_JSVE.Controllers.Data.Models
         public string Autor { get; set; }
         public string ConverUrl { get; set; }
         public DateTime? DateAdded { get; set; }
+
+        //Propiedades de navegación 
+
+        public int PublisherId { get; set; }
+        public Publisher Publisher { get; set; }
+
     }
 }
